@@ -1,0 +1,36 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+</head>
+<body>
+    <div class='container'>
+        <h1 class='display'>Hill Climbing</h1>
+        <hr>
+        <button type="button" class="btn btn-success btn-block" id='start'>Start</button>
+        <div id='results'>
+        </div>
+
+        <!-- OUTPUT START-->
+        <div class='container-fluid bg-light mt-2'>
+            <hr>
+            <h2 class='display'>Output:</h2>
+            <hr>
+            <div class='border' id="plot-climbers" style="width:100%;height:480px;background-color:white;"></div>
+            <div class='border' id="plot-iterations" style="width:100%;height:480px;background-color:white;"></div>
+            <div class='border' id="plot3" style="width:100%;height:480px;background-color:white;"></div>
+            
+        </div>
+            <!-- OUTPUT END-->
+        <div id='results-list'>            
+        </div>
+    </div>
+
+    <script src="Plotter.js"></script>
+    <script src="controller.js"></script>
+    <script src='hill-climbing.js'></script>
+    <!-- Bootstrap Styling-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
